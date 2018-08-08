@@ -1,0 +1,166 @@
+/* Extra large devices (large laptops and desktops, 1366px and up) */
+@media only screen and (min-width: 1200px) and (max-width:1440px) {
+   
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width:1366px) {
+
+    .listform .input-group input.form-control, .listform select.form-control{font-size: 13px;}
+    .listbtn-search{width: 90px; height: 90px; top: 50%; transform: translate(50%, -50%); right: 10px;}
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+    .main-nav .nav>li>a { padding-right: 10px; padding-left: 10px; font-size: 14px;}
+    .myaccount>bdo{padding: 2px 10px;}
+    .listform{padding-right: 70px;}
+    .listform .input-group input.form-control, .listform select.form-control{font-size: 12px;}
+    .listbtn-search{width: 80px; height: 80px; top: 50%; transform: translate(50%, -50%); right: 10px;}
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width:991px) {   \
+    .main-nav .navbar-brand img {width: 150px;}
+    .main-nav .nav>li>a{padding: 15px 10px; font-size: 13px}
+    .myaccount>bdo{padding: 2px 10px;}
+    .phone-number{display: none;}
+    .flight-list-footer .pull-right span{font-size: 14px;}
+    .flight-list-footer span{font-size: 11px;}
+    .flight-list-footer.top-bg h3{font-size: 20px;}
+    .xs-pd{padding-right: 0px;}
+    .flight-list-v2 .departure{padding-right: 0;}
+    .flight-list-v2 .destination{padding-left: 0;}
+    .flight-list-v2 h5{font-size: 12px;}
+    .process-flight{padding: 30px 10px 20px;}
+    .process-flight li{font-size: 12px; padding-left: 18px; padding-right: 18px;}
+    .partners>ul>li{padding: 5px 15px; width: 115px;}
+    .listform{padding-right: 70px;}
+    .listform .input-group input.form-control, .listform select.form-control{font-size: 12px;}
+    .listbtn-search{width: 70px; height: 70px; top: 50%; transform: translate(50%, -50%); right: 10px;}
+
+} 
+
+
+/* Extra small devices (phones, 767px and down) */
+@media only screen and (max-width: 767px) {
+    .listbanner{display: none}
+    .sticky{padding-bottom: 10px;}
+    .themeradiobox{margin-bottom: 10px;}
+    .title-default h3 span.icon{padding-left: 65px;}
+    .title-default h3 span.icon:before{width: 70%;}    
+    .title-default.ver-1 h3 span.icon{padding-left: 55px;}
+    .title-default.ver-1 h3 span.icon:before{width: 60%;}
+    .dealimg img{width: 100%;}
+    .main-nav .navbar-nav{margin: 0;}
+    .listform{padding:20px;}
+    .listform .modify>.row>[class*="col-sm-"] { padding: 0px 15px;}  
+    .listbtn-search {position: static; transform: none; height: 50px; width: 100%; border: none;border-radius: 0px;}
+    .navbar-fixed-top{background: #fff;}
+    .main-nav .nav>li>a{padding: 12px 0;}
+    .phone-number{margin: 0; line-height: 58px; border-top:1px solid #eee; border-left: 0px; text-align: center;}
+    .card-accept{padding: 0;}
+    .myaccount>bdo{width: 50%; right: 0; left: auto; text-align: right; top: 10px;}
+    .myaccount>bdo>i{margin-right: 5px;}
+    .card-accept>ul>li{border: none;}
+    .phone-number>a{font-size: 22px;}
+    .flight-list-footer.top-bg h3{font-size: 18px;}
+    .flight-list-footer.top-bg h3>span{font-size: 11px; display: block; padding: 0;}
+    .xs-pd{padding-right: 0px; padding-left: 10px;}
+    .tollfn{margin: 5px 0; padding: 5px 10px; overflow: hidden}
+    .flight-list-v2 .stop-box:before{left: 47%;}
+    .flight-list-v2 .stop-box{margin: 6px auto; width: 150px;}
+    .flight-list-footer{text-align: center;}
+    .flight-list-footer.top-bg{text-align: left;}
+    .listbtn-search>span{display: inline-block;}
+    .listbtn-search>i{display: none;}
+        .process-flight{padding: 30px 10px 20px;}
+    .process-flight li{font-size: 12px; padding-left: 15px; padding-right: 15px;}
+    .main-banner{height: auto; padding: 50px 0;}
+    form .checkbox-ver-1 { display: inline-block; margin: 4px 0 !important;}
+    .spncavity{display: block;}
+    .supprtbox{padding: 10px 0; border-bottom: 1px dashed #eee;}
+    .whyussm .supprtbox{padding: 10px 0; border-bottom: none;}
+    .support-sec .col-sm-3:last-child .supprtbox{ border-bottom: none;}
+    .supprtbox .icon{width: 40px;}
+    .flex{display: block;}
+    .deal-slider .owl-next{right: 0; font-size:35px !important}
+    .deal-slider .owl-prev{left: 0; font-size:35px !important}
+    .title-default h3, .title-default.ver-1 h3{font-size: 18px;}
+    .two-column{width: 100%; max-width: 100%;}
+    .necessary-infomation{padding: 45px 15px;}
+    .necessary-infomation .list-infomation{padding: 0 0 0 20px;}
+    .list-payment{background: none;}
+    .payment-safery{padding: 20px; width: 100%;}
+    .payment-item, .payment-item.right{padding: 0 0 20px 110px; min-height: 110px;}
+    .payment-item.right .payment-content{text-align: left;}
+    .payment-item .icon{top: -4px;}
+    .payment-item.right .icon{left: 0; right: auto;}
+/*    .payment-item.right {padding: 0 110px 20px 0;}*/
+    .topdestini-container{margin-bottom: 20px;}
+    .main-nav .navbar-brand, .main-nav.navbar-fixed-top .navbar-brand{padding: 0;}
+    .main-nav .navbar-brand img{width: 170px;}
+    .booktiktcolum>h3{font-size: 16px;}
+    .booktiktcolum>h4{font-size: 18px;}
+    .booktiktcolum>h3>span,
+    .booktiktcolum>h4>span{font-size: 28px;}
+    .ticket-slider .owl-controls{position: relative;}
+    .owl-carousel.ticket-slider .owl-controls .owl-buttons div{top: 10px;}
+    .owl-carousel.ticket-slider .owl-controls .owl-buttons .owl-prev{right: 16%;}
+    .main-nav.navbar-fixed-top .navbar-brand img{padding: 0;}
+    .partners>ul>li{border: none; width: 74px;}
+    .filter-viewxs{display: none;}
+.fliterxs{display: block;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    background: #fff;
+    border: 1px solid #eee;
+    font-size: 11px;
+    padding: 5px; z-index: 9;
+}
+    .makeusfly-load>img{width: 140px;}
+    .menu-tag-form{padding: 26px 20px 25px;}
+    .input-info-search {padding: 30px 20px 31px;}
+    .thank-banner>h2{font-size: 28px;}
+    .thanks-box>h2{font-size: 24px;}
+    .thank-banner{background-position: top center;}
+    .about-page{padding: 10px;}
+    .thanks-box{margin-top: -130px;}
+    .thank-banner{height: 220px;padding: 40px 0;}
+    .form-control[type='text']{box-shadow: none; -webkit-appearance:none;}
+    .cus_poup_form{padding: 10px;}
+    
+    
+    
+}
+
+
+
+/* Extra small devices (phones, 767px and down) */
+@media only screen and (max-width: 540px) {
+.flight-list-footer.top-bg small{display: none;}
+    .process-flight{padding: 30px 10px 20px;}
+    .process-flight li{font-size: 9px; padding-left: 8px; padding-right: 8px;}
+    .gallerythumb>li{width: 100%;}
+    ..gallerythumb>li>a{height: auto;}
+}
+
+/* Extra small devices (phones, 767px and down) */
+@media only screen and (max-width: 479px) {
+    .title-default h3, .title-default.ver-1 h3{font-size: 16px;}
+    .ticket-item .logo-ticket{width: 100%;}
+    .ticket-item .logo-ticket>img{width: 100%;}
+    .payment-item, .payment-item.right{padding: 0 0 20px 100px;}
+/*    .payment-item.right {padding: 0 100px 20px 0;}*/
+    .payment-item .icon span{font-size: 10px; width:22px; height: 22px; line-height: 20px;}
+    .payment-item .icon{height: 75px; width: 75px; line-height: 75px;}
+    .partners>ul>li{width: 33%; padding: 5px 15px; border: none;}
+    .booktiktcolum>h3>span, .booktiktcolum>h4>span {font-size: 24px;}
+    .title-default h3 span.icon {padding-left: 55px;}
+    .cus_poup_form{padding: 10px 0;}
+    .ticket-item .logo-ticket{padding-top: 0;}
+    #payment-card~small>img{height: 16px;}
+    
+}
